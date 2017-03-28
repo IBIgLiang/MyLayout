@@ -1,0 +1,13 @@
+
+source 'git@git.2dfire-inc.com:ios/cocoapods-spec.git'
+
+target 'MyLayout' do
+  pod 'MyLayout', :path => ‘../‘
+
+  target 'MyLayoutTests' do
+    inherit! :search_paths
+
+  end
+end
+
+
